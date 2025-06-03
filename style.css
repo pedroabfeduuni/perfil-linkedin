@@ -1,0 +1,321 @@
+body{
+    background-color: rgb(235, 233, 233);
+}
+
+.div-one{
+  width: auto ;   
+  height: auto;     
+  background-color: #ffffff; 
+  border-radius:  10px;
+  padding: 10px 0px;        
+  margin: 10px 200px;         
+  max-width: 780px;
+}
+
+.div-on {
+  width: auto ; 
+  height: auto; 
+  background-color: #ffffff; 
+  border-radius:  10px;
+  padding: 0px;
+  margin: 80px 200px 10px;
+  max-width: 780px;
+}
+
+.div-two{
+  width: auto ;    
+  height: auto;     
+  background-color: #ffffff; 
+  border-radius:  10px;
+  padding:  0px ;      
+  margin: 10px 200px;         
+  max-width: 780px;
+}
+
+.interna-one  {
+  background-image: url(img/Rimuru.jpg);
+  background-repeat: repeat-x;
+  border-radius:  10px 10px 0 0;
+  padding: 0px;
+  height: 150px;
+  
+}
+
+#in{
+    width: 35px;
+    height: 35px;
+    padding: 1px 0px 1px 100px;  
+}
+
+#lu, #ca, #pe, #ma, #ba, #si, #po, #ri{
+    width: 20px;
+    height: 20px;
+    padding: 1px 18px;
+    margin: 1px 1px 1px 1px;
+}
+
+@media (max-width: 780px){
+  .div-one{
+  width: auto ;
+  height: auto;
+  background-color: #ffffff;
+  border-radius:  10px;
+  padding: 10px 0px;
+  margin: 10px 80px;
+  max-width: 780px;
+  }
+}
+
+@media (max-width: 780px){
+  .div-on{
+  width: auto ;
+  height: auto;
+  background-color: #ffffff; 
+  border-radius:  10px;
+  padding: 0px;
+  margin: 65px 80px 10px;
+  max-width: 780px;
+  }
+}
+
+@media (max-width: 780px){
+  .div-two{
+  width: auto ;
+  height: auto;
+  background-color: #ffffff;
+  border-radius:  10px;
+  margin: 10px 80px;
+  max-width: 780px;
+
+  }
+}
+
+@media (max-width: 780px){
+  #in{
+    width: 35px;
+    height: 35px;
+    padding: 1px 1px; 
+  }
+}
+
+@media (max-width: 780px){
+  #lu, #ca, #pe, #ma, #ba, #si, #po, #ri{
+    padding: 1px 15px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+   figcaption, .luu, .logo{
+    display: none; 
+  }
+}
+
+@media (max-width: 780px)  {
+  .barra-fixa{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 72.29%;
+      background-color: #fcfcfc;
+      padding: 3px 10px;
+      z-index: 100; 
+      text-align: right;
+
+}
+}
+
+@media (max-width: 780px){
+  .pontos{
+      position: fixed;
+      left: 75% ;
+      width: 27.6%;
+      background-color: #fcfcfc;
+      border-left: 1px solid rgb(229, 229, 229);
+      top: 0;
+      height: 26px;
+      padding: 11px;
+}
+}
+
+@media (min-width:  781px)  {
+  #lu, li, #uni{
+    display: none;
+  }
+}
+
+@media (min-width: 781px){
+.barra-fixa{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 71%;
+      background-color: #fcfcfc;
+      padding: 3px 10px;
+      z-index: 100; 
+      text-align: right;
+}
+}
+
+@media (min-width: 781px){
+  .pontos{
+  position: fixed;
+  left: 72.35% ;
+  width: 27.6%;
+  background-color: #fcfcfc;
+  border-left: 1px solid rgb(230, 230, 230);
+  top: 0;
+  height: 52px;
+}
+}
+
+figure{
+  margin: 1px 5px;
+  padding: 1px 1px;
+  display: inline-block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
+
+#fir{
+    width: 55px;
+    height: 55px;
+    padding: 0px 0px;
+    text-align: right;
+    margin: 0px 0px 0px 25px;
+}
+
+#uni{
+    width: 35px;
+    height: 35px;
+    padding: 0px 25px;
+}
+ 
+#la, #mais{
+   width: 20px; 
+   margin: 1px;
+   float: right;
+}
+
+#laa{
+  width: 12px; 
+  margin: 0px;
+  float: right;
+   
+}
+
+#Ri{
+   width: 220px;
+   clip-path: circle();
+   margin: -5.5px 0px 0px -54.5px;
+   
+}
+
+.lapp {
+ float: right;
+ border-radius: 50px;
+border: 1px;
+}
+
+.lappa {
+ float: right;
+ border-radius: 50px;
+ border: 1px;
+ padding: 10px;
+}
+
+.foto-perfil{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 10px solid rgb(255, 255, 255);
+    padding: 0px;
+    margin: 84px 0px 0px 25px;
+    height: 130px;
+    width: 130px;
+}
+
+p, h2, h3, hr{
+    margin: 1px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    margin: -10px -21px;
+    font-size: 14px;
+    text-indent: -20px;
+}
+
+ h1{
+    margin: 70px 10px 10px 25px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.button-one {
+    background-color: rgb(53, 78, 215);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(253, 253, 253);
+    color: rgb(53, 78, 215);
+    border-color: rgb(53, 78, 215);
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+input{
+  text-align: center; 
+  padding:7px 85px 7px 20px;
+  float: left;
+  margin: 0px 85px 0px 0px;
+}
+
+input::placeholder{
+  background:url(img/lupa2.jpg)  no-repeat;
+  
+}
+
+#un{
+    width: 55px;
+    height: 55px;
+    padding: 25px 10px 30px 25px;
+}
+
+.m{
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  border: 0px;
+  
+}
+
+.tudo{
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  border-top: 1px solid rgb(230, 230, 230);
+  padding: 10px;
+}
+
+.logo{
+ 
+  margin: -70px 0px 10px 550px;
+  float: right;
+}
+
+#unip{
+  width: 35px;
+  height: 35px;
+  padding: 0px 20px 10px 10px;
+  float:left;
+}
